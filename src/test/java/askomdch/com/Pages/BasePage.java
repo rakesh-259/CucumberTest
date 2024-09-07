@@ -1,5 +1,6 @@
 package askomdch.com.Pages;
 
+import askomdch.com.utils.ConfigLoader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,7 +15,7 @@ public class BasePage {
     }
     public void load(String url)
     {
-        driver.get(url);
+        driver.get(ConfigLoader.getInstance().getBaseUrl()+url);
     }
 
     public WebDriver driver;
