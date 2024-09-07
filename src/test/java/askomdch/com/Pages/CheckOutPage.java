@@ -1,6 +1,7 @@
 package askomdch.com.Pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,10 +14,11 @@ public class CheckOutPage extends BasePage{
     }
     @FindBy(id = "billing_first_name") private WebElement firstName;
     @FindBy(id = "billing_last_name") private WebElement lastName;
-    @FindBy(id = "billing_country") private WebElement country;
+    @FindBy(id = "select2-billing_country-container") private WebElement country;
     @FindBy(id ="billing_address_1") private  WebElement StreetAddress;
     @FindBy(id="billing_city") private WebElement city;
-    @FindBy( id="billing_state") private  WebElement state;
+    @FindBy( id="select2-billing_state-container") private  WebElement state;
+    //private final By alternativeStateDropDown =By.id("select2-billing_state-container");
     @FindBy( id = "billing_postcode") private  WebElement zipCode;
     @FindBy( id="billing_email") private  WebElement email;
     @FindBy( id = "place_order") private  WebElement placeOrder;
@@ -33,7 +35,12 @@ public class CheckOutPage extends BasePage{
         return this;
     }
     public CheckOutPage EnterCoutnry(String cuntryName){
-        SelectByName(cuntryName,country);
+        wait.until(ExpectedConditions.elementToBeClickable(country)).click();
+        WebElement e=wait.until(ExpectedConditions.elementToBeClickable(
+                By.xpath("//li[text()='"+cuntryName+"']")));
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",e);
+        e.click();
+        //6SelectByName(cuntryName,country);
         return this;
     }
     public CheckOutPage EnterStreetAddress(String Eaddress){
@@ -42,10 +49,16 @@ public class CheckOutPage extends BasePage{
     }
     public CheckOutPage EnterCity(String Ecity){
         wait.until(ExpectedConditions.elementToBeClickable(city)).sendKeys(Ecity);
+        //((JavascriptExecutor)driver).executeScript("arguments[0].setAttribute('"+Ecity+"')",city);
         return this;
     }
     public CheckOutPage EnterState(String Estate){
-        SelectByName(Estate,state);
+        wait.until(ExpectedConditions.elementToBeClickable(state)).click();
+        WebElement e=wait.until(ExpectedConditions.elementToBeClickable(
+                By.xpath("//li[text()='"+Estate+"']")));
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",e);
+        e.click();
+        //SelectByName(Estate,state);
         return this;
     }
     public CheckOutPage EnterzipCode(String Ezipcode){
