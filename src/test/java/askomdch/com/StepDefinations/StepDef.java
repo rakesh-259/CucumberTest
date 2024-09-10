@@ -1,10 +1,11 @@
-package askomdch.com;
+package askomdch.com.StepDefinations;
 
 import askomdch.com.Pages.CartPage;
 import askomdch.com.Pages.CheckOutPage;
 import askomdch.com.Pages.HomePage;
 import askomdch.com.Pages.StorePage;
 import askomdch.com.constants.EndPoint;
+import askomdch.com.context.TestContext;
 import askomdch.com.factory.DriverFactory;
 import askomdch.com.workobject.BillingDetails;
 import askomdch.com.workobject.Product;
@@ -19,51 +20,24 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import java.awt.*;
 import java.lang.reflect.Type;
 import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 import java.util.List;
 
 public class StepDef {
-    private   WebDriver driver;
+    private final  WebDriver driver;
     private BillingDetails billingDetails;
-    @Given("I'm on the Store Page")
-    public void i_m_on_the_store_page() {
-        // Write code here that turns the phrase above into concrete actions
-        driver=DriverFactory.getDriver();
-        //driver.get("https://askomdch.com/");
-        new StorePage(driver).load(EndPoint.STORE.url);
-    }
-    @When("I add a {product} to the cart")
-    public void i_add_a_to_the_cart(Product product) throws InterruptedException {
-        //new HomePage(driver).ClickStoreBtn();
-        new StorePage(driver).addToCart(product.getName());
-    }
-    @Then("I should see {int} {product} in the cart")
-    public void i_should_see_in_the_cart(Integer quantity, Product product) {
-             CartPage cartPage= new CartPage(driver);
-             Assert.assertEquals(product.getName(),cartPage.getProductFld());
-             Assert.assertEquals(quantity,cartPage.getProductQualityNum());
+    private  TestContext context;
+
+    public StepDef(TestContext context)
+    {
+        //System.out.println("step def D1 : scenario name: "+context.scenarioName);
+        driver= context.driver;
     }
 
-    @Given("I am application User")
-    public void i_am_application_user() {
-        driver=DriverFactory.getDriver();
-        new StorePage(driver).load(EndPoint.STORE.url);
 
-    }
-    @Given("I have the product in cart")
-    public void i_have_the_product_in_cart() {
-        //new HomePage(driver).ClickStoreBtn();
-        new StorePage(driver).addToCart("Blue Tshirt");
-
-
-    }
-    @Given("I'm check out page")
-    public void i_m_check_out_page() {
-
-        new CartPage(driver).ClickCheckOutBtn();
-    }
     @When("I'm providing Billing Details")
     public void i_m_providing_billing_detials(DataTable dataTable) {
         List<List<String>> rows=dataTable.asLists(String.class);
@@ -89,25 +63,7 @@ public class StepDef {
         CheckOutPage checkOutPage=new CheckOutPage(driver);
         checkOutPage.SetBillingDetails(billingFirstName,billingLastName,billingCountry,billingStreet_address,billingCity,
                 billingState,billingZip_Code,billingEmail_address);
-
-
-
-
     }
-
-    @When("I place an order")
-    public void i_place_an_order() {
-        new CheckOutPage(driver).EnterPlaceOrder();
-
-    }
-    @Then("the Order should be placed successfully")
-    public void the_order_should_be_placed_successfully() {
-        Assert.assertEquals("Thank you. Your order has been received.",
-                new CheckOutPage(driver).GetNotice());
-
-    }
-
-
 }
 
 

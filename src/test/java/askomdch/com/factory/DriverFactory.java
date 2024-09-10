@@ -9,31 +9,27 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.time.Duration;
 
 public class DriverFactory {
-    private static  WebDriver driver;
+
     public static WebDriver initializeDriver(String browser){
-        //driver = new ChromeDriver();
-        //driver.manage().window().maximize();
-        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
-        //WebDriver driver;
+
+        WebDriver driver;
         switch (browser) {
             case "chrome" : {
-                //WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
-                driver.manage().window().maximize();
                 break;
             }
             case "firefox" : {
-                //WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 driver.manage().window().maximize();
                 break;
             }
             default : throw new IllegalStateException("INVALID BROWSER: " + browser);
         }
+        driver.manage().window().maximize();
         return  driver;
     }
-    public static  WebDriver getDriver()
-    {
-        return driver;
-    }
+//    public static  WebDriver getDriver()
+//    {
+//        return driver;
+//    }
 }

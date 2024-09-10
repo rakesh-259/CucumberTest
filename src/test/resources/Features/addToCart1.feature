@@ -1,10 +1,10 @@
 Feature: Add to card2
-  Scenario:
+  Scenario: Add the blue shoes product
     Given  I'm on the Store Page
     When I add a "Blue Shoes" to the cart
     Then I should see 1 "Blue Shoes" in the cart
 
-  Scenario Outline:
+  Scenario Outline: Add the 2 set of product to cart
     Given  I'm on the Store Page
     When I add a "<product_name>" to the cart
     Then I should see 1 "<product_name>" in the cart
@@ -14,7 +14,7 @@ Feature: Add to card2
       | Anchor Bracelet |
 
 
-  Scenario:
+  Scenario: Add the product and place the order,billing
     Given I am application User
     And I have the product in cart
     And I'm check out page
