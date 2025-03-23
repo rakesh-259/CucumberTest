@@ -5,15 +5,17 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-        plugin = {"html:target/cucumber/cucumber.html"},
-        //plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
+        //plugin = {"html:target/cucumber/cucumber.html"},
+        plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
+        dryRun = false,
         glue = {"askomdch.com"},
-        features = "src/test/resources/Features/addToCart1.feature"
+        features = "src/test/resources/Features/addToCart1.feature",
+        tags=""
 )
 public class RunCucumberTest extends AbstractTestNGCucumberTests {
 
     @Override
-    @DataProvider(parallel = true)
+    @DataProvider(parallel = false)
     public Object[][] scenarios(){
         return super.scenarios();
     }

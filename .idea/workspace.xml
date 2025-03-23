@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5692ee1b-8d35-4532-9963-6c7cc0745363" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/MensPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/StepDefinations/HomeStepDefination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/StepDefinations/MensStepDefination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/utils/HoverActionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/utils/ScreenshotUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/utils/SeleniumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/Product Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/CheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/CheckOutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/PageFactoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/PageFactoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/StorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/StorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/StepDefinations/CartStepDefination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/StepDefinations/CartStepDefination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/StepDefinations/StoreStepDefination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/StepDefinations/StoreStepDefination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/constants/EndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/constants/EndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/customtype/customDataTableType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/customtype/customDataTableType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/customtype/customParameterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/customtype/customParameterType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/factory/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/hooks/MyHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/hooks/MyHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/runners/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/runners/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/addToCart1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/addToCart1.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2leYWv8MFUv7LxPq69Wvzk2JZmu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Selenium/CucumberTest/src/test/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Selenium\CucumberTest\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Add the product from mens section and cancel from the cart">
+    <configuration name="Feature: Product Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Product Search.feature" />
+      <option name="GLUE" value="askomdch.com.StepDefinations askomdch.com.customtype askomdch.com.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Product Search" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: addToCart1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/addToCart1.feature" />
+      <option name="GLUE" value="askomdch.com" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberTest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: addToCart1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Add the and cancel from the cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/addToCart1.feature" />
+      <option name="GLUE" value="askomdch.com.StepDefinations askomdch.com.customtype askomdch.com.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberTest" />
+      <option name="NAME_FILTER" value="^Add the and cancel from the cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add the and cancel from the cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add the and cancel from the cart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Add the product from mens section and cancel from the cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/addToCart1.feature" />
+      <option name="GLUE" value="askomdch.com.StepDefinations askomdch.com.customtype askomdch.com.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberTest" />
+      <option name="NAME_FILTER" value="^Add the product from mens section and cancel from the cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add the product from mens section and cancel from the cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add the product from mens section and cancel from the cart" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCucumberTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="askomdch.com.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="askomdch.com.runners" />
+      <option name="MAIN_CLASS_NAME" value="askomdch.com.runners.RunCucumberTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Add the product from mens section and cancel from the cart" />
+        <item itemvalue="TestNG.RunCucumberTest" />
+        <item itemvalue="Cucumber Java.Feature: addToCart1" />
+        <item itemvalue="Cucumber Java.Scenario: Add the and cancel from the cart" />
+        <item itemvalue="Cucumber Java.Feature: Product Search" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5692ee1b-8d35-4532-9963-6c7cc0745363" name="Changes" comment="" />
+      <created>1725542043170</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725542043170</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Added more page in page object">
+      <created>1725601774975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725601774975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added more page in page object">
+      <created>1725725782335</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725725782335</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1725945395942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725945395942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added more page in page object" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

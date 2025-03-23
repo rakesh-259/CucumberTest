@@ -5,21 +5,28 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.time.Duration;
 
 public class DriverFactory {
 
-    public static WebDriver initializeDriver(String browser){
-
+    public static WebDriver initializeDriver(String browser) throws MalformedURLException {
+        DesiredCapabilities capabilities= new DesiredCapabilities();
+        capabilities.setBrowserName("chrome");
+        //WebDriver driver= new RemoteWebDriver(new URL("http://localhost:4444"),capabilities);
         WebDriver driver;
         switch (browser) {
             case "chrome" : {
                 driver = new ChromeDriver();
+                //driver = new RemoteWebDriver(new URL("http://localhost:4444"),capabilities);
                 break;
             }
-            case "firefox" : {
-                driver = new FirefoxDriver();
+            case "edge" : {
+                driver = new EdgeDriver();
                 driver.manage().window().maximize();
                 break;
             }

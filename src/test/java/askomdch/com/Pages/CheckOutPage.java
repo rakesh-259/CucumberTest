@@ -1,9 +1,6 @@
 package askomdch.com.Pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -81,8 +78,19 @@ public class CheckOutPage extends BasePage{
 
     public CheckOutPage EnterPlaceOrder()
     {
-        wait.until(ExpectedConditions.elementToBeClickable(placeOrder)).click();
-        return this;
+        for(int i=0;i<2;i++)
+        {
+            try {
+                ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", placeOrder);
+                placeOrder.click();
+//                wait.until(ExpectedConditions.elementToBeClickable(placeOrder)).click();
+                return this;
+            }
+            catch (StaleElementReferenceException e) {
+                System.out.println("Retrying click due to StaleElementReferenceException...");
+            }
+        }
+        throw new RuntimeException("Failed to click on 'Place Order' button after multiple attempts.");
     }
 
     public String GetNotice()

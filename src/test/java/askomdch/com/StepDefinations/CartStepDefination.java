@@ -7,6 +7,7 @@ import askomdch.com.workobject.BillingDetails;
 import askomdch.com.workobject.Product;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -28,5 +29,16 @@ public class CartStepDefination {
 
         Assert.assertEquals(product.getName(),cartPage.getProductFld());
         Assert.assertEquals(quantity,cartPage.getProductQualityNum());
+    }
+    @Step("Verify the Item should be zero after removing all the Items")
+    @Then("Verify the Item should be zero after removing all the Items")
+    public void verifyTheItemShouldBeZeroAfterRemovingAllTheItems() throws InterruptedException {
+
+        Assert.assertEquals(cartPage.ClickonXButton(),0,"Item are got deleted presently no item are there at cart");
+//        if(cartPage.ClickonXButton()==1)
+//        {
+//            System.out.println(" Item are got deleted presently no item are there at cart");
+//        }
+
     }
 }

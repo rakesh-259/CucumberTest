@@ -1,0 +1,16 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  As a customer of xyz app
+  I want to add the product in cart
+  so that I can purchase the product","8684","Add the product and place the order,billing","","Sat Mar 22 11:38:31 IST 2025","passed","Sat Mar 22 11:38:40 IST 2025","","Add to card2","Add the product and place the order,billing",""
+"  As a customer of xyz app
+  I want to add the product in cart
+  so that I can purchase the product","8256","Add the blue shoes product","","Sat Mar 22 11:38:12 IST 2025","passed","Sat Mar 22 11:38:20 IST 2025","","Add to card2","Add the blue shoes product",""
+"  As a customer of xyz app
+  I want to add the product in cart
+  so that I can purchase the product","4165","Add the 2 set of product to cart","","Sat Mar 22 11:38:20 IST 2025","passed","Sat Mar 22 11:38:24 IST 2025","","Add to card2","Add the 2 set of product to cart",""
+"  As a customer of xyz app
+  I want to add the product in cart
+  so that I can purchase the product","30503","Add the product from mens section and cancel from the cart","","Sat Mar 22 11:38:40 IST 2025","failed","Sat Mar 22 11:39:11 IST 2025","","Add to card2","Add the product from mens section and cancel from the cart",""
+"  As a customer of xyz app
+  I want to add the product in cart
+  so that I can purchase the product","6862","Add the 2 set of product to cart","","Sat Mar 22 11:38:24 IST 2025","passed","Sat Mar 22 11:38:31 IST 2025","","Add to card2","Add the 2 set of product to cart",""
