@@ -1,0 +1,3 @@
+![Cucumber Workflow](https://raw.githubusercontent.com/rakesh-259/CucumberTest/refs/heads/master/DALL%C2%B7E%202025-03-23%2013.24.26%20-%20An%20infographic%20showing%20the%20Cucumber%20Test%20Automation%20framework%20workflow.%20The%20diagram%20should%20have%20four%20main%20sections_%201.%20'Feature%20File'%20-%20written%20in%20Ghe.webp)
+Cucumber: BDD Testing Framework
+Cucumber is a Behavior-Driven Development (BDD) testing framework that allows teams to write test scenarios in a human-readable format using Gherkin syntax. It is primarily used for automating functional tests and supports multiple programming languages like Java
