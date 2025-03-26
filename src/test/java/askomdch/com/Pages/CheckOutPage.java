@@ -81,9 +81,9 @@ public class CheckOutPage extends BasePage{
         for(int i=0;i<2;i++)
         {
             try {
-                ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", placeOrder);
-                placeOrder.click();
-//                wait.until(ExpectedConditions.elementToBeClickable(placeOrder)).click();
+//                ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", placeOrder);
+//                placeOrder.click();
+                wait.until(ExpectedConditions.elementToBeClickable(placeOrder)).click();
                 return this;
             }
             catch (StaleElementReferenceException e) {
