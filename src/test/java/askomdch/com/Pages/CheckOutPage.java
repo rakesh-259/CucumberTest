@@ -76,22 +76,38 @@ public class CheckOutPage extends BasePage{
                 EnterzipCode(billingZipCode).EnterEmail(billingEmail);
     }
 
-    public CheckOutPage EnterPlaceOrder() throws InterruptedException {
-        Thread.sleep(3000);
-        for(int i=0;i<2;i++)
-        {
-            try {
+    public CheckOutPage EnterPlaceOrder()  {
 
-                ((JavascriptExecutor) driver).executeScript("arguments[0].click(true);", placeOrder);
-                placeOrder.click();
-//                wait.until(ExpectedConditions.elementToBeClickable(placeOrder)).click();
-                return this;
-            }
-            catch (StaleElementReferenceException e) {
+        for(int i=0;i<2;i++) {
+            try {
+                // Refresh the reference of the element to avoid stale element issues
+                WebElement placeOrder = wait.until(ExpectedConditions.elementToBeClickable(By.id("place_order")));
+
+                if (placeOrder.isEnabled()) {
+                    System.out.println("Element is clickable");
+                    try {
+                        // Use JavaScript click as a fallback
+                        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", placeOrder);
+                    } catch (Exception jsEx) {
+                        System.out.println("JavaScript click failed, trying native click");
+                        placeOrder.click();
+                    }
+                    return this;
+                } else {
+                    System.out.println("Element is NOT clickable");
+                }
+
+            } catch (StaleElementReferenceException e) {
                 System.out.println("Retrying click due to StaleElementReferenceException...");
+            } catch (TimeoutException e) {
+                System.out.println("Element not clickable within the timeout period");
+            } catch (NoSuchElementException e) {
+                System.out.println("Element not found on the page");
+            } catch (Exception e) {
+                System.out.println("An unexpected error occurred: " + e.getMessage());
             }
         }
-        throw new RuntimeException("Failed to click on 'Place Order' button after multiple attempts.");
+        return null;
     }
 
     public String GetNotice()
