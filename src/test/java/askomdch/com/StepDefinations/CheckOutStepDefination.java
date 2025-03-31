@@ -19,7 +19,7 @@ public class CheckOutStepDefination {
     }
 
     @When("I place an order")
-    public void i_place_an_order() {
+    public void i_place_an_order() throws InterruptedException {
         checkOutPage.EnterPlaceOrder();
 
     }
