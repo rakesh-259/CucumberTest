@@ -16,7 +16,8 @@ public class DriverFactory {
 
     public static WebDriver initializeDriver(String browser) throws MalformedURLException {
         DesiredCapabilities capabilities= new DesiredCapabilities();
-        capabilities.setBrowserName("chrome");
+        //capabilities.setBrowserName("chrome");
+        capabilities.setBrowserName("MicrosoftEdge");
         //WebDriver driver= new RemoteWebDriver(new URL("http://localhost:4444"),capabilities);
         WebDriver driver;
         switch (browser) {
@@ -26,9 +27,13 @@ public class DriverFactory {
                 break;
             }
             case "edge" : {
-                driver = new EdgeDriver();
+                //driver = new EdgeDriver();
+                driver = new RemoteWebDriver(new URL("http://localhost:4444"),capabilities);
                 driver.manage().window().maximize();
                 break;
+            }
+            case "remote":{
+
             }
             default : throw new IllegalStateException("INVALID BROWSER: " + browser);
         }

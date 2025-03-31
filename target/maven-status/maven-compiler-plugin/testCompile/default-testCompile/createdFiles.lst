@@ -5,6 +5,7 @@ askomdch\com\constants\EndPoint.class
 askomdch\com\utils\ConfigLoader.class
 askomdch\com\Pages\HomePage.class
 askomdch\com\factory\DriverFactory.class
+askomdch\com\runners\RerunFailedTests.class
 askomdch\com\workobject\Product.class
 askomdch\com\Pages\CheckOutPage.class
 askomdch\com\StepDefinations\CartStepDefination.class

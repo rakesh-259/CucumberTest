@@ -11,6 +11,7 @@ D:\Selenium\CucumberTest\src\test\java\askomdch\com\Pages\HomePage.java
 D:\Selenium\CucumberTest\src\test\java\askomdch\com\Pages\MensPage.java
 D:\Selenium\CucumberTest\src\test\java\askomdch\com\Pages\PageFactoryManager.java
 D:\Selenium\CucumberTest\src\test\java\askomdch\com\Pages\StorePage.java
+D:\Selenium\CucumberTest\src\test\java\askomdch\com\runners\RerunFailedTests.java
 D:\Selenium\CucumberTest\src\test\java\askomdch\com\runners\RunCucumberTest.java
 D:\Selenium\CucumberTest\src\test\java\askomdch\com\StepDefinations\CartStepDefination.java
 D:\Selenium\CucumberTest\src\test\java\askomdch\com\StepDefinations\CheckOutStepDefination.java

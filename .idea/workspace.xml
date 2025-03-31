@@ -5,37 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cf82ee9-cdd3-419d-b836-dd3e5f70a269" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docker/docker-compose_grid.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/runners/RerunFailedTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/08625b15-006c-4ca2-9e76-af787bf4f7c0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0ba830f4-7d84-4b95-a608-257133b454ea-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/116a04b8-fe7e-4165-b04a-69b28e3758d5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/3c6905be-7be5-4d81-8ed9-72c85947438e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5745df42-e428-430e-afdc-496143c80ed6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8ceefb37-c920-4e49-b5e6-ddd5ff628b52-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c0658a76-dfa4-4066-a6b2-693638fb6782-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/c20f4dd9-9798-4593-89cf-5ee57f62fbbf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d48ae380-172f-4261-b8f4-6ed5c01005ed-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d72da6bb-5064-491c-a195-ca1e41d8f999-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/db8f8d38-967f-4387-b4be-941abdd96520-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e08d6065-af7f-41e1-9473-471de3839346-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/fa32f7b5-c105-4408-81a0-4e72c364b667-attachment.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/CheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/Pages/CheckOutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/17b908ed-ad3a-4908-a527-673084ef70bd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1a187a28-212a-4ed8-8fe6-df86f3eb8f5a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/23c3e5c0-de35-41f2-99a3-81a4e0e29f19-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/29e7aa16-4a6a-490f-bc2e-25f9975c19fb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f17dac1-4b21-4007-9934-b5d1ee97635b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/35f18f8f-efe9-4871-8db7-89c502a4ac6d-attachment.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3fccdcc2-4a17-486d-9ee5-e6797365d315-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/50c05cb7-85fb-49e0-8080-5bcf7f470806-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/94444efb-13f6-45da-b3c3-2cae793292a5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a626b5c5-b29a-413a-a790-d6e39bac6f4f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a8f4c058-8170-4e3b-a04f-e8e66136103a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b8b348bc-f2ef-4cd6-a4a4-09a8af7ef15f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d0744b03-8ce8-44e8-9421-04352255e993-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d2160e22-1b7b-44f8-80ee-253c747c1950-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e08e8b23-6a82-4c66-8cec-b0348cd76cbe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e9e103c7-5134-48e1-abbe-9899f37f7c37-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ed3297e0-4161-41e2-b0c2-a95c7e810323-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ef10b5fd-55a5-4c17-8c2c-b41eb7d1eb9a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f3f59c57-e363-4c12-86dd-e9031ef857ef-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/factory/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/runners/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/runners/RunCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/askomdch/com/utils/HoverActionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/askomdch/com/utils/HoverActionUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-03-23T01-17-20_705.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-03-26T12-55-40_615.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-askomdch.com.runners.RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-askomdch.com.runners.RunCucumberTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/askomdch.com.runners.RunCucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/askomdch.com.runners.RunCucumberTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-askomdch.com.runners.RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-askomdch.com.runners.RunCucumberTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/askomdch/com/customtype/customDataTableType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/askomdch/com/customtype/customDataTableType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/askomdch/com/factory/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/askomdch/com/factory/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/askomdch/com/runners/RunCucumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/askomdch/com/runners/RunCucumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/askomdch/com/utils/HoverActionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/askomdch/com/utils/HoverActionUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,26 +83,7 @@
       <recent name="D:\Selenium\CucumberTest\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Add the product from mens section and cancel from the cart">
-    <configuration name="Feature: Product Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/Product Search.feature" />
-      <option name="GLUE" value="askomdch.com.StepDefinations askomdch.com.customtype askomdch.com.hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberTest" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Product Search" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.RunCucumberTest">
     <configuration name="Feature: addToCart1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/addToCart1.feature" />
@@ -153,6 +143,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RerunFailedTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="askomdch.com.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="askomdch.com.runners" />
+      <option name="MAIN_CLASS_NAME" value="askomdch.com.runners.RerunFailedTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunCucumberTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CucumberTest" />
       <extension name="coverage">
@@ -172,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Add the product from mens section and cancel from the cart" />
         <item itemvalue="TestNG.RunCucumberTest" />
+        <item itemvalue="TestNG.RerunFailedTests" />
+        <item itemvalue="Cucumber Java.Scenario: Add the product from mens section and cancel from the cart" />
         <item itemvalue="Cucumber Java.Feature: addToCart1" />
         <item itemvalue="Cucumber Java.Scenario: Add the and cancel from the cart" />
-        <item itemvalue="Cucumber Java.Feature: Product Search" />
       </list>
     </recent_temporary>
   </component>

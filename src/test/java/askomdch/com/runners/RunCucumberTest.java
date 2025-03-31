@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         //plugin = {"html:target/cucumber/cucumber.html"},
-        plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
+        plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","rerun:target/failed_scenarios.txt"},
         dryRun = false,
         glue = {"askomdch.com"},
         features = "src/test/resources/Features/addToCart1.feature",

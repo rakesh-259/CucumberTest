@@ -92,6 +92,7 @@
             <artifactId>cucumber-testng</artifactId>
             <version>7.18.1</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
